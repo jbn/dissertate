@@ -12,4 +12,5 @@ install:
     - pip install nose coveralls
 script: 
     - coverage run --source=dissertate setup.py nosetests
+    - ./test_image_template.sh
 after_success: coveralls

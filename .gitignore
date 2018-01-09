@@ -1,3 +1,5 @@
 dissertate.egg-info
 todo.txt
 __pycache__
+.ipynb_checkpoints
+dist

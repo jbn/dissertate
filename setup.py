@@ -69,6 +69,10 @@ if __name__ == "__main__":
         long_description=read_file_safely("README.rst"),
         packages=PACKAGES,
         package_dir={"": "."},
+        package_data={"dissertate": [
+            "dissertate.tpl"
+        ]},
+        include_package_data=True,
         zip_safe=False,
         classifiers=CLASSIFIERS,
         install_requires=INSTALL_REQUIRES,
