@@ -1,4 +1,4 @@
 include README.rst
 include requirements.txt
 include LICENSE
-dissertate.tpl
+dissertate/dissertate.tpl

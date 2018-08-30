@@ -6,7 +6,7 @@ __uri__ = "https://github.com/jbn/dissertate"
 __doc__ = __description__ + " <" + __uri__ + ">"
 __license__ = "MIT"
 __copyright__ = "Copyright (c) 2017 John Bjorn Nelson"
-__version__ = "0.0.2"
+__version__ = "0.0.3"
 
 
 def markdown_template_path():
