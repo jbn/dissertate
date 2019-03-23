@@ -1,0 +1,5 @@
+[
+  "tests/test_preprocessors.py::TestAddAuthors::test_add_authors",
+  "tests/test_preprocessors.py::TestEmptyCellElider::test_empty_cell_elider",
+  "tests/test_preprocessors.py::TestCellElider::test_cell_elider"
+]
