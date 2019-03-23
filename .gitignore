@@ -3,3 +3,5 @@ todo.txt
 __pycache__
 .ipynb_checkpoints
 dist
+.pytest_cache
+*.pyc
