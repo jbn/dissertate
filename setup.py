@@ -70,7 +70,7 @@ if __name__ == "__main__":
         packages=PACKAGES,
         package_dir={"": "."},
         package_data={"dissertate": [
-            "dissertate.tpl"
+            "dissertate/dissertate.tpl"
         ]},
         include_package_data=True,
         zip_safe=False,
