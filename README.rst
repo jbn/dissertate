@@ -47,7 +47,22 @@ If you don't want a cell in the output, edit the cell metadata to include,
 
    {"tags": ["private"]}
 
-If you want the output of the cell but not the code, 
+Alternatively, you can use
+
+.. code:: json
+
+   {"tags": ["todo"]}
+
+or,
+
+.. code:: json
+
+   {"tags": ["setup"]}
+
+for semantic differences that have no effect on ``dissertate`` processing.
+
+If you want to retain the output of the cell but not the code (e.g.,
+for an emitted ``matplotlib`` graph),
 
 .. code:: json
 
