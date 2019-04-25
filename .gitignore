@@ -5,3 +5,6 @@ __pycache__
 dist
 .pytest_cache
 *.pyc
+.mypy_cache
+cli_tests/image_template/plot.jpg
+cli_tests/image_template/image_captions.html
